@@ -1,0 +1,9 @@
+{
+    "name": "Hello World Jupyter",
+    "image":"python:3.9",
+    "extensions": ["ms-python.python"],
+    "postCreateCommand": "pip install notebook",
+    "forwardPorts": [8888],
+    "remoteUser": "root",
+}
+  
